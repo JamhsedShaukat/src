@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rent a car with ease from our wide selection of vehicles. Affordable prices and excellent customer service."
+    />
+
+    <!-- Merienda font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poppins font family -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/24f84cfde2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../dist/minifiedCss.css" />
+
+    <title>Car Rental Service</title>
+  </head>
+  <body>
+    <main>
+      <header class="flex">
+        <div class="left-head flex">
+          <div class="content flex">
+            <img src="./Images/logo.png" alt="Logo image" class="logo-img" />
+            <h3>Car Rental</h3>
+            <p class="subtitle-small">premium service</p>
+          </div>
+        </div>
+        <div class="right-head flex">
+          <ul class="top-nav flex">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <p class="nav-subtitle">Support@muskansheraz.com</p>
+            </li>
+            <li>
+              <i class="fa-regular fa-clock"></i>
+              <p class="nav-subtitle">Mon to Fri 8:00am to 6:00pm</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-comment"></i>
+              <a href="#" class="nav-subtitle nav-link">online chat</a>
+            </li>
+          </ul>
+          <nav class="bottom-nav flex">
+            <ul id="navigation-left" class="flex">
+              <li class="tab">
+                <a href="#home" class="nav-subtitle tab-link active">home</a>
+              </li>
+              <li class="tab">
+                <a href="#" class="nav-subtitle tab-link">rent</a>
+              </li>
+              <li class="tab">
+                <a href="#" class="nav-subtitle tab-link">share</a>
+              </li>
+              <li class="tab">
+                <a href="#" class="nav-subtitle tab-link">ride</a>
+              </li>
+              <li class="tab">
+                <a href="#service" class="nav-subtitle tab-link">services</a>
+              </li>
+            </ul>
+
+            <div class="navigation-right flex">
+              <div class="sign-up flex">
+                <i class="fa-regular fa-circle-user"></i>
+                <a href="#" class="nav-subtitle nav-link">signup</a>
+              </div>
+
+              <div class="box flex">
+                <i class="fa-solid fa-phone-volume"></i>
+
+                <div class="box-content">
+                  <p class="smallet-text">call</p>
+                  <a href="#" class="nav-subtitle nav-link">+92 3332431081</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="menu-block">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </header>
+
+      <section id="home">
+        <div class="container flex">
+          <div class="left-content flex">
+            <h1 class="title-1">Looking to save more on your rental car?</h1>
+
+            <p class="subtext-1">
+              Discover car rental option in your city. Select from a range of
+              car options.
+            </p>
+            <button class="btn" id="home-btn">Book now</button>
+          </div>
+          <div class="right-content">
+            <img src="./Images/home-car.png" alt="home about car image" />
+          </div>
+        </div>
+      </section>
+
+      <section id="procedure">
+        <div class="container">
+          <div class="content flex">
+            <div class="heading-block">
+              <p class="highlighted-text">How it work</p>
+              <h1 class="title-2">Rentgo following 3 working steps</h1>
+            </div>
+
+            <div class="timeline">
+              <div class="step flex">
+                <div class="step-icon flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h1 class="sub-heading1">Choose a location</h1>
+                <p class="subtext-2">
+                  Discover car rental option in your city. Select from a range
+                  of car options.
+                </p>
+              </div>
+
+              <div class="marker mark-upside">
+                <img src="./Images/upside.png" alt="Vector image" />
+              </div>
+
+              <div class="step flex">
+                <div class="step-icon flex">
+                  <i class="fa-solid fa-calendar"></i>
+                </div>
+                <h1 class="sub-heading1">Pick-up date</h1>
+                <p class="subtext-2">
+                  Discover car rental option in your city. Select from a range
+                  of car options.
+                </p>
+              </div>
+              <div class="marker mark-downside flex">
+                <img src="./Images/downside.png" alt="Vector image" />
+              </div>
+              <div class="step flex">
+                <div class="step-icon flex">
+                  <i class="fa-solid fa-book-bookmark"></i>
+                </div>
+                <h1 class="sub-heading1">Book your car</h1>
+                <p class="subtext-2">
+                  Discover car rental option in your city. Select from a range
+                  of car options.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="car-category flex">
+            <i class="fa-solid fa-caret-down fa-shake"></i>
+            <div class="category-block flex">
+              <div class="selection flex">
+                <label for="company">select company</label>
+                <select name="Company" id="company">
+                  <option value="All Company">All Company</option>
+                </select>
+              </div>
+              <div class="selection flex">
+                <label for="model">select model</label>
+                <select name="Model" id="model">
+                  <option value="All Model">All Model</option>
+                </select>
+              </div>
+              <div class="selection flex">
+                <label for="roof">select roof</label>
+                <select name="Roof" id="roof">
+                  <option value="Open Roof">Open Roof</option>
+                </select>
+              </div>
+              <div class="selection flex">
+                <label for="fuel">select fuel</label>
+                <select name="Fuel" id="fuel">
+                  <option value="All Fuel">All Fuel</option>
+                </select>
+              </div>
+
+              <div class="selection flex">
+                <button class="selection-btn btn">search</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-up fa-shake"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="service">
+        <div class="container flex">
+          <div class="serv-left-content">
+            <img src="./Images/car-blue.png" alt="Blue Car" />
+          </div>
+          <div class="serv-right-content flex">
+            <div class="heading-block">
+              <p class="highlighted-text">best services</p>
+              <h1 class="title-2">
+                Feel the best experience with our rental deals
+              </h1>
+            </div>
+            <div class="timeline">
+              <div class="step flex">
+                <div class="step-icon flex">
+                  <i class="fa-regular fa-handshake" style="color: #ff6436"></i>
+                </div>
+                <div class="step-content">
+                  <h1 class="sub-heading2">deals for every budget</h1>
+                  <p class="subtext-2">
+                    Discover car rental option in your city. Select from a range
+                    of car options.
+                  </p>
+                </div>
+              </div>
+              <div class="step flex">
+                <div class="step-icon flex">
+                  <i
+                    class="fa-solid fa-bag-shopping"
+                    style="color: #ff6436"
+                  ></i>
+                </div>
+                <div class="step-content">
+                  <h1 class="sub-heading2">best price guarented</h1>
+                  <p class="subtext-2">
+                    Discover car rental option in your city. Select from a range
+                    of car options.
+                  </p>
+                </div>
+              </div>
+              <div class="step flex">
+                <div class="step-icon flex">
+                  <i class="fa-solid fa-headphones" style="color: #ff6436"></i>
+                </div>
+                <div class="step-content">
+                  <h1 class="sub-heading2">support 24/7</h1>
+                  <p class="subtext-2">
+                    Discover car rental option in your city. Select from a range
+                    of car options.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="our-brand">
+        <div class="container">
+          <div class="heading-block">
+            <p class="highlighted-text">top brands</p>
+            <h1 class="title-2">
+              Explore our top Deals from Top Rated Dealers
+            </h1>
+          </div>
+
+          <div class="car-selection flex">
+            <div class="company-names flex">
+              <div class="car-make flex active">
+                <img
+                  src="./Images/audi.png"
+                  alt="Audi car logo"
+                  class="car-logo"
+                />
+                <p class="car-name subtext-3">audi</p>
+              </div>
+              <div class="car-make flex">
+                <img
+                  src="./Images/honda.png"
+                  alt="Honda car logo"
+                  class="car-logo"
+                />
+                <p class="car-name subtext-3">honda</p>
+              </div>
+              <div class="car-make flex">
+                <img
+                  src="./Images/toyota.png"
+                  alt="toyota car logo"
+                  class="car-logo"
+                />
+                <p class="car-name subtext-3">toyota</p>
+              </div>
+              <div class="car-make flex">
+                <img
+                  src="./Images/nissan.png"
+                  alt="Nissan car logo"
+                  class="car-logo"
+                />
+                <p class="car-name subtext-3">nessan</p>
+              </div>
+              <div class="car-make flex">
+                <img
+                  src="./Images/tesla.png"
+                  alt="Tesla car logo"
+                  class="car-logo"
+                />
+                <p class="car-name subtext-3">tesla</p>
+              </div>
+              <div class="car-make flex">
+                <p class="car-name subtext-3 flex">explore all</p>
+              </div>
+            </div>
+            <div class="gallery flex" id="car-gallery"></div>
+          </div>
+
+          <div class="move-buttons">
+            <div class="arrow" id="left-arrow">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="arrow" id="right-arrow">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="container">
+          <div class="heading-block">
+            <p class="highlighted-text">best experience</p>
+            <h1 class="title-2">We Are Ensuring Best Costumer Experience</h1>
+          </div>
+
+          <div class="user-satisfaction flex">
+            <div class="timeline flex">
+              <div class="us-point-1 flex">
+                <div class="step-details flex">
+                  <div class="step-icon">
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="color: #ff6436"
+                    ></i>
+                  </div>
+                  <div class="step-content">
+                    <h1 class="sub-heading3">Compitative price</h1>
+                  </div>
+                </div>
+                <div class="indicator-image">
+                  <img
+                    src="./Images/indicator-1.png"
+                    alt=""
+                    class="indicator-1"
+                  />
+                </div>
+              </div>
+              <div class="us-point-1 flex">
+                <div class="step-details flex">
+                  <div class="step-icon">
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="color: #ff6436"
+                    ></i>
+                  </div>
+                  <div class="step-content">
+                    <h1 class="sub-heading3">Easier rent on your budget</h1>
+                  </div>
+                </div>
+                <div class="indicator-image">
+                  <img
+                    src="./Images/indicator-2.png"
+                    alt=""
+                    class="indicator-2"
+                  />
+                </div>
+              </div>
+              <div class="us-point-1 flex">
+                <div class="step-details flex">
+                  <div class="step-icon">
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="color: #ff6436"
+                    ></i>
+                  </div>
+                  <div class="step-content">
+                    <h1 class="sub-heading3">
+                      the best extended auto warrenties
+                    </h1>
+                  </div>
+                </div>
+                <div class="indicator-image">
+                  <img
+                    src="./Images/indicator-3.png"
+                    alt=""
+                    class="indicator-3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="reffer-car-image">
+              <img src="./Images/refferImage.png" alt="Car Image" />
+            </div>
+
+            <div class="timeline flex">
+              <div class="us-point-1 flex">
+                <div class="step-details flex">
+                  <div class="step-icon">
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="color: #ff6436"
+                    ></i>
+                  </div>
+                  <div class="step-content">
+                    <h1 class="sub-heading3">roadside assistance 24/7</h1>
+                  </div>
+                </div>
+                <div class="indicator-image">
+                  <img
+                    src="./Images/indicator-4.png"
+                    alt=""
+                    class="indicator-4"
+                  />
+                </div>
+              </div>
+              <div class="us-point-1 flex">
+                <div class="step-details flex">
+                  <div class="step-icon">
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="color: #ff6436"
+                    ></i>
+                  </div>
+                  <div class="step-content">
+                    <h1 class="sub-heading3">most flexible payment plan</h1>
+                  </div>
+                </div>
+                <div class="indicator-image">
+                  <img
+                    src="./Images/indicator-5.png"
+                    alt=""
+                    class="indicator-5"
+                  />
+                </div>
+              </div>
+              <div class="us-point-1 flex">
+                <div class="step-details flex">
+                  <div class="step-icon">
+                    <i
+                      class="fa-regular fa-handshake"
+                      style="color: #ff6436"
+                    ></i>
+                  </div>
+                  <div class="step-content">
+                    <h1 class="sub-heading3">your choice of machanics</h1>
+                  </div>
+                </div>
+                <div class="indicator-image">
+                  <img
+                    src="./Images/indicator-6.png"
+                    alt=""
+                    class="indicator-6"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checklist flex">
+            <div class="box flex">
+              <img src="./Images/box-icon-1.png" alt="" />
+              <p class="subtext-3">engine</p>
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="box flex">
+              <img src="./Images/box-icon-2.png" alt="" />
+              <p class="subtext-3">transmission</p>
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="box flex">
+              <img src="./Images/box-icon-3.png" alt="" />
+              <p class="subtext-3">electrical</p>
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="box flex">
+              <img src="./Images/box-icon-4.png" alt="" />
+              <p class="subtext-3">cooling</p>
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="box flex">
+              <img src="./Images/box-icon-5.png" alt="" />
+              <p class="subtext-3">20 + check all</p>
+              <i class="fa-solid fa-check"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="customer-reviews">
+        <div class="container">
+          <div class="heading-block">
+            <p class="highlighted-text">Read reviews</p>
+            <h1 class="title-2">Know What Our Costumers Say’s</h1>
+          </div>
+
+          <div class="separator flex">
+            <div class="separator-line"></div>
+            <i class="fa-solid fa-quote-left"></i>
+            <div class="separator-line"></div>
+          </div>
+
+          <div class="customer-crausel">
+            <div class="customer-perspectives active flex">
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-1.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-2.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-3.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="customer-perspectives slider-block flex">
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-1.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-2.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-3.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="customer-perspectives slider-block flex">
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-1.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-2.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="customer-review flex">
+                <div class="message flex">
+                  <div class="ratings flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <q class="message-text subtext-2"
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia illo eligendi officia vel ab enim ullam, expedita
+                    maxime officiis sunt.</q
+                  >
+                </div>
+                <div class="customer-bio flex">
+                  <img
+                    src="Images/reviewer-3.png"
+                    alt="Reviewer picture"
+                    class="reviewer-pic"
+                  />
+                  <div class="content">
+                    <h1 class="sub-heading4">alex cathy</h1>
+                    <p class="subtext-4">costumer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="customer-reviews-slider flex">
+            <div class="slider-dot active"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+          </div>
+        </div>
+        <img src="./Images/bg-1.png" alt="" class="bg-image" />
+      </section>
+
+      <section id="blog">
+        <div class="container">
+          <div class="heading-block">
+            <p class="highlighted-text">our blogd</p>
+            <h1 class="title-2">What Our Author Post on Newsfeed</h1>
+          </div>
+          <div id="newsfeed-gallery" class="flex gallery">
+            <div class="news-post flex">
+              <img
+                src="Images/blog-img-1.png"
+                alt="Blog post image"
+                class="blog-image"
+              />
+              <div class="post-content flex">
+                <h1 class="sub-heading4">Nov 25, 2023</h1>
+                <h1 class="sub-heading1">Ultimate Mobility Solution</h1>
+                <p class="subtext-4">
+                  Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate
+                  libero et velit interdum, ac aliquet odio mattis et velit
+                  interdum, ac aliquet odio mattis ac aliquet odio mattis et
+                  velit interdum, ac aliquet odio mattis.
+                </p>
+                <button class="btn blogRead-button">
+                  <a href="#">read now</a>
+                </button>
+              </div>
+            </div>
+            <div class="news-post flex">
+              <img
+                src="Images/blog-img-2.png"
+                alt="Blog post image"
+                class="blog-image"
+              />
+              <div class="post-content flex">
+                <h1 class="sub-heading4">Nov 25, 2023</h1>
+                <h1 class="sub-heading1">Ultimate Mobility Solution</h1>
+                <p class="subtext-4">
+                  Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate
+                  libero et velit interdum, ac aliquet odio mattis et velit
+                  interdum, ac aliquet odio mattis ac aliquet odio mattis et
+                  velit interdum, ac aliquet odio mattis.
+                </p>
+                <button class="btn blogRead-button">
+                  <a href="#">read now</a>
+                </button>
+              </div>
+            </div>
+            <div class="news-post flex">
+              <img
+                src="Images/blog-img-3.png"
+                alt="Blog post image"
+                class="blog-image"
+              />
+              <div class="post-content flex">
+                <h1 class="sub-heading4">Nov 25, 2023</h1>
+                <h1 class="sub-heading1">Ultimate Mobility Solution</h1>
+                <p class="subtext-4">
+                  Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate
+                  libero et velit interdum, ac aliquet odio mattis et velit
+                  interdum, ac aliquet odio mattis ac aliquet odio mattis et
+                  velit interdum, ac aliquet odio mattis.
+                </p>
+                <button class="btn blogRead-button">
+                  <a href="#">read now</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="container flex">
+          <div class="footer-logo flex">
+            <div class="content flex">
+              <img src="./Images/logo.png" alt="Logo image" class="logo-img" />
+              <h3>Car Rental</h3>
+              <p class="subtitle-small">premium service</p>
+            </div>
+          </div>
+
+          <div class="about-details flex">
+            <div class="about-details-content flex">
+              <p class="subtext-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit quaerat voluptatibus eius mollitia voluptate explicabo,
+                sit repellat quidem excepturi voluptatem alias placeat debitis
+                atque vitae quibusdam in praesentium omnis deleniti.
+              </p>
+              <div class="social-handles">
+                <a class="social-links" href="#">
+                  <img
+                    src="./Images/social-icon-1.png"
+                    alt=""
+                    class="social-image"
+                  />
+                </a>
+                <a class="social-links" href="#">
+                  <img
+                    src="./Images/social-icon-2.png"
+                    alt=""
+                    class="social-image"
+                  />
+                </a>
+                <a class="social-links" href="#">
+                  <img
+                    src="./Images/social-icon-3.png"
+                    alt=""
+                    class="social-image"
+                  />
+                </a>
+                <a class="social-links" href="#">
+                  <img
+                    src="./Images/social-icon-4.png"
+                    alt=""
+                    class="social-image"
+                  />
+                </a>
+                <a class="social-links" href="#">
+                  <img
+                    src="./Images/social-icon-5.png"
+                    alt=""
+                    class="social-image"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <table class="about-details-links">
+              <thead class="table-header">
+                <tr>
+                  <th>about</th>
+                  <th>extras</th>
+                  <th>our resources</th>
+                </tr>
+              </thead>
+              <tbody class="table-body">
+                <tr>
+                  <td><a href="#" class="link-page">why rental</a></td>
+                  <td><a href="#" class="link-page">repair center</a></td>
+                  <td><a href="#" class="link-page">help center</a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="link-page">our story</a></td>
+                  <td><a href="#" class="link-page">booking</a></td>
+                  <td><a href="#" class="link-page">guides</a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="link-page">centers</a></td>
+                  <td><a href="#" class="link-page">news offers</a></td>
+                  <td><a href="#" class="link-page">news offersr</a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="link-page">investors</a></td>
+                  <td><a href="#" class="link-page">investors</a></td>
+                  <td><a href="#" class="link-page">investors</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <form id="newsletter-form">
+            <div class="subscription flex">
+              <p class="subscription-title">newsletter</p>
+              <div class="subscription-input flex">
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  id="input-email"
+                />
+                <button type="submit" class="btn subscription-button">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <hr class="horizontal-line" />
+
+          <p class="subtext-3 copyright-text">
+            all right reserved
+            <span class="copyright-highlighted-text">@Muskansheraz</span>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
